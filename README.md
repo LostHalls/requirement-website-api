@@ -5,18 +5,19 @@ This is the api service for the [Lost Halls Requirement Checker](https://github.
 - [Node.js 20.*](https://nodejs.org/en/download)
 
 # Setup Steps
-1. **Install Main App Dependencies**
-   Navigate to the root folder of your React app and run:
-   ```sh
-   npm install
-   ```
+## Install Main App Dependencies
+Navigate to the root folder of your React app and run:
+```sh
+npm install
+```
 
-2. **Create Settings**
-  - Copy `settings_template.json` to `settings.json`
-  - Default port is set to `3030` -- if you wish to change this, update `port` in `settings.json`
+## Create Settings
+Copy `settings_template.json` to `settings.json`
 
-3. **Install Dependencies**
-  Run: `npm i`
+Default port is set to `3030` -- if you wish to change this, update `port` in `settings.json`
 
-4. **Start the API**
-  Run `npm start`
+## Install Dependencies
+`npm i`
+
+## Start the API
+`npm start`
